@@ -1,11 +1,10 @@
-contentEditable jQuery Plugin
-===============
+#contentEditable jQuery Plugin
 
 Manage events and content from HTML elements with contenteditable attributes and placeholder option.
 
-Usage
-=====
+##Usage
 
+```
 $("#...").contentEditable({
   "placeholder" : "Enter some content",
   "newLineOnEnterKey" : false,
@@ -14,7 +13,7 @@ $("#...").contentEditable({
   },
   "onFocusIn" : function(){
         // DO some stuff here
-  },
+  },<br>
   "onFocusOut" : function(){
         // DO some stuff here
   },
@@ -26,3 +25,4 @@ $("#...").contentEditable({
         // Do some ajax call to save your edited content
   }
 });
+```
