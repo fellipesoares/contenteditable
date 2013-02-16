@@ -1,0 +1,44 @@
+{
+    "name": "contenteditable",
+    "title": "Content Editable jQuery Plugin",
+    "description": "Manage content and events from HTML contenteditable elements.",
+    "keywords": [
+        "content",
+        "dom",
+  	"ajax",
+		"event",
+		"edit",
+		"form",
+		"cms"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Fellipe Soares Creative Developer",
+        "url": "http://www.fellipesoares.com"
+    },
+    "maintainers": [
+        {
+            "name": "Fellipe Soares",
+            "email": "fellipe@fellipesoares.com",
+            "url": "http://www.fellipesoares.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "GPL",
+            "url": "http://www.gnu.org/licenses/gpl.html"
+        },
+		{
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/mit-license.php"
+        }
+    ],
+    "bugs": "https://github.com/fellipesoares/contenteditable/issues",
+    "homepage": "http://labs.fellipesoares.com/plugins/contenteditable",
+    "docs": "http://labs.fellipesoares.com/plugins/contenteditable",
+	"demo": "http://labs.fellipesoares.com/plugins/contenteditable",
+    "download": "http://labs.fellipesoares.com/plugins/contenteditable",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
