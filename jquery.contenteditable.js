@@ -1,6 +1,6 @@
 /*
 *  Content Editable Plugin for jQuery
-*	Version 1.0 (2013-02-15)
+*	Version 1.0.0 (2013-02-15)
 *	Plugin website: http://labs.fellipesoares.com/plugins/contenteditable
 *	Author: Fellipe Soares Studio
 *	Author website: http://www.fellipesoares.com/
