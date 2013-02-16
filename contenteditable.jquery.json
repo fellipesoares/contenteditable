@@ -1,5 +1,5 @@
 {
-    "name": "contentEditable",
+    "name": "contenteditable",
     "title": "Content Editable jQuery Plugin",
     "description": "Manage content and events from HTML contenteditable elements with placeholder option.",
     "keywords": [
