@@ -1,5 +1,5 @@
 /*
-*  Content Editable Plugin for jQuery
+*  	Content Editable Plugin for jQuery with Placeholder
 *	Version 1.0.0 (2013-02-15)
 *	Plugin website: http://labs.fellipesoares.com/plugins/contenteditable
 *	Author: Fellipe Soares Studio

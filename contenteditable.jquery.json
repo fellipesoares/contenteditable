@@ -1,11 +1,13 @@
 {
-    "name": "jcontenteditable",
-    "title": "Content Editable jQuery Plugin",
-    "description": "Manage content and events from HTML contenteditable elements with placeholder option.",
+    "name": "contenteditable",
+    "title": "Content Editable jQuery Plugin with Placeholder",
+    "description": "Set HTML elements to 'contenteditable' with placeholder functionality and manages its content and events quickly and easily.",
     "keywords": [
         "content",
         "dom",
-  	"ajax",
+		"ajax",
+		"contenteditable",
+		"placeholder",
 		"event",
 		"edit",
 		"form",
@@ -14,7 +16,7 @@
     "version": "1.0.0",
     "author": {
         "name": "Fellipe Soares Creative Developer",
-        "url": "http://www.fellipesoares.com"
+        "url": "http://www.fellipesoares.com/"
     },
     "maintainers": [
         {

@@ -1,6 +1,8 @@
-#contentEditable jQuery Plugin
+#Content Editable jQuery Plugin with Placeholder
 
-Manage events and content from HTML elements with contenteditable attributes and placeholder option.
+Set HTML elements to 'contenteditable' with placeholder functionality and manages its content and events quickly and easily.
+
+See a demo on the [plugin website]("http://labs.fellipesoares.com/plugins/contenteditable" "Content Editable jQuery Plugin Website").
 
 ##Usage
 
@@ -9,20 +11,29 @@ $("#...").contentEditable({
   "placeholder" : "Enter some content",
   "newLineOnEnterKey" : false,
   "onActivate" : function(){
-        // DO some stuff here
+        // DO something here
   },
   "onFocusIn" : function(){
-        // DO some stuff here
-  },<br>
+        // DO something here
+  },
   "onFocusOut" : function(){
-        // DO some stuff here
+        // DO something here
   },
   "onBlur" : function(element){
         // element.content return the edited content of the element
         // element.settings return the settings object of the element
-        // like the placeholder text / html
         
-        // Do some ajax call to save your edited content
+        // Do something with the edited content.
   }
+});
+```
+
+```
+$("#...").contentEditable({
+	"placeholder" : "I´m empty",
+	"onBlur" : function(element){
+		
+		// Do something with the edited content (element.content).
+	}
 });
 ```
