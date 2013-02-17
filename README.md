@@ -2,7 +2,7 @@
 
 Set HTML elements to 'contenteditable' with placeholder functionality and manages its content and events quickly and easily.
 
-See a demo on the [plugin website]("http://labs.fellipesoares.com/plugins/contenteditable" "Content Editable jQuery Plugin Website").
+See demo on http://labs.fellipesoares.com/plugins/contenteditable
 
 ##Usage
 
