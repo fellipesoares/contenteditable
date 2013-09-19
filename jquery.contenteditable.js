@@ -1,5 +1,5 @@
 /*
-*  Content Editable Plugin for jQuery
+*   Content Editable Plugin for jQuery with Placeholder
 *   Version 1.0.0 (2013-02-15)
 *   Plugin website: http://labs.fellipesoares.com/plugins/contenteditable
 *   Author: Fellipe Soares Studio
@@ -9,15 +9,15 @@
 *   http://www.gnu.org/licenses/gpl.html
 */
 ;(function($,window,document){
-
+    
     var updateContent = function(element){
         var c = $(element).html();
         if($.trim($(element).text()) == ''){ c = ''; }
         return c;
     };
-
+    
     $.fn.contentEditable = function(options){
-
+    
         var defaults = {
             'placeholder'           : 'Insert content',
             'newLineOnEnterKey'     : false,
@@ -27,7 +27,7 @@
             'onBlur'                : false
         };
         var settings = $.extend( {}, defaults, options);
-
+        
         return this.each(function() {
             $(this).attr("contenteditable","true");
             this.content = updateContent(this);
